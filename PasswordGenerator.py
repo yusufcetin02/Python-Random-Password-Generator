@@ -1,6 +1,6 @@
 import random
 
-def randomPaswordGenerator(length):
+def randomPasswordGenerator(length):
     if length > 100:
         length = 100
     passwordLength = list(range(1,length+1))
@@ -30,7 +30,7 @@ def randomPaswordGenerator(length):
 #while True:
 #    try:
 #        inputPasswordLength = input('What Is Your Password Length : ')
-#        randomPaswordGenerator(int(inputPasswordLength))
+#        randomPasswordGenerator(int(inputPasswordLength))
 #        break
 #    except Exception as e:
 #        print('Please enter only numbers !')
